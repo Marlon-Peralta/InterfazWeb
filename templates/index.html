@@ -1,1 +1,5 @@
-Hola, vista mi <a href="{% url 'blog:home' %}">menu aqui</a>
+{% extends 'base.html' %}
+
+{% block content %}
+Hola, soy Barbot vista mi <a class = "text-blue-500 text-center" href="{% url 'blog:home' %}">menu aqui</a>
+{% endblock content %}
